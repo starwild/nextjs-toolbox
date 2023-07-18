@@ -8,7 +8,7 @@ export default function FeedbackForm() {
         data-netlify-honeypot="bot-field"
         name="feedback"
         method="POST"
-        action="/success"
+        action="/index"
       >
         <input type="hidden" name="form-name" value="feedback" />
         <p className={styles.hidden}>
